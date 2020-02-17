@@ -10,7 +10,7 @@ merge conflict- caused when you have different changes to same line of a file wh
 fetch- dowloads commits, files and refs from a remote repository\
 remote- common repository that all team members use to exchange changes\
 
-instructions on how to use brainstorm and github together
+instructions on how to use brainstorm and github together(assuming users has already downloaded GIT and linked brainstorm account with Github account)
 create a new project and title it whatever you want\
 next, in the top left, click file, then settings, then open the version control drop down and click Git, then in the top right click test\
 if it comes back saying the version you have, you are good, if an error appears, something is wrong, re install git and try again.\
@@ -20,4 +20,7 @@ next click VCS at the top\
 then click import into version control\
 then click share project on github\
 continue to follow the prompt until its finished, you should then see something appear in the bottom right of the screen to the effect of "the file has been uploaded to github"\
-now go on github and notice a new repository with you new README.MD file in it.
+now go on github and notice a new repository with you new README.MD file in it.\
+now when you make changes to the file and want to upload it you must first click VCS, then click Commit, add a good description of what you have done.\
+after that go back to VCS and go to Git, then click push, select the commit you want to push to your github repository and then click push. after that the new commit will be uploaded to your github.
+
